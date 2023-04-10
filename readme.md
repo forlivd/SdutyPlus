@@ -7,9 +7,7 @@
 # 학습 시간 인증 관리 앱    "Sduty+"
 <br>
 
-  <a href="https://play.google.com/store/apps/details?id=com.d205.sdutyplus">
-    <img alt="Get it on Google Play" title="Google Play" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="180">
-  </a>
+
 ### 🧷 GooglePlay 다운로드 링크
 https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
