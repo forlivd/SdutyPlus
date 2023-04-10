@@ -23,7 +23,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
-## 프로젝트 소개
+## 프로젝트 기능 소개
 
 <br>
 
