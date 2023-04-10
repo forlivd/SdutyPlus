@@ -22,16 +22,16 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 <br/>
 
 ### 구축 인원 및 기간
-<b> - 기간 : 2022-010 ~ 2022-11 (총 7주 + 유지보수 ) </b> <br/>
-<b> - 인원 : 5명 (인프라 구축 5명) </b>
+<b> - 기간 : 2022-010 ~ 2022-11+ (총 7주+) </b> <br/>
+<b> - 인원 : 6명 (Android 4, Backend 2) </b>
 
 <br>
 
-## 프로젝트 기능 소개
+### 프로젝트 기능 소개
 
 <br>
 
-### ⏱ 타이머
+#### ⏱ 타이머
 <img src="https://user-images.githubusercontent.com/49026286/202905679-e269b04f-0b62-4d92-94bb-3be739a6eaa1.gif" width="300" height="610"/>
 <img src="https://user-images.githubusercontent.com/49026286/202933761-d9f2ba67-d668-4be4-b5a7-0a1ef1fa6feb.gif" width="300" height="610"/>
 
@@ -40,7 +40,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
-### 📙 리포트
+#### 📙 리포트
 <img src="https://user-images.githubusercontent.com/49026286/202905787-523feaa6-f498-4983-911c-bfe87f69b0d6.gif" width="300" height="610"/>
 <img src="https://user-images.githubusercontent.com/49026286/203218539-42078568-8495-4031-83d6-4777f75c977b.png" width="300" height="610"/>
 
@@ -48,7 +48,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
-### ⌛ 타임라인
+#### ⌛ 타임라인
 <img src="https://user-images.githubusercontent.com/49026286/202906189-e0fcc9c0-6187-4199-bbe7-ab8a1c0e4872.png" width="300" height="610"/>
 <img src="https://user-images.githubusercontent.com/49026286/202933701-c05e504a-9d1d-4491-95cc-faefd2954f0c.jpg" width="300" height="610"/>
 
@@ -56,7 +56,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
-### 📊 통계
+#### 📊 통계
 <img src="https://user-images.githubusercontent.com/49026286/202933789-ed946a7a-5a5d-4f03-a24b-29f4d204e8cb.gif" width="300" height="610"/>
 
 오늘 하루 공부한 결과를 통계 자료를 통해 시각적으로 볼 수 있어요.
