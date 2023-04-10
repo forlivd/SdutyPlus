@@ -9,24 +9,21 @@
 **공부 인증 스터디앱**
 <br>
 
-**[1. Explore Front Repository](./AOS)**<br>
-**[2. Explore Back Repository](./Backend)**
+### 🧷 다운로드 링크
+https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 
 </div>
 
 <br>
 
-## 기획 배경
-- 높은 스터디 앱의 사용률
-- 공부에 대한 정보 및 자극 요소의 제공
+## 프로젝트 개요
+- Timer를 통해 학습 시간을 기록하고 관리할 수 있다.
+- SNS로 학습 시간을 인증할 수 있다.
 
 <br>
 
 ## 프로젝트 소개
-
-### 🧷 다운로드 링크
-https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
