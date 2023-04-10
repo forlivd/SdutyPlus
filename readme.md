@@ -19,7 +19,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 ## 프로젝트 개요
 - Timer를 통해 학습 시간을 기록하고 관리할 수 있다.
-- SNS로 학습 시간을 인증할 수 있다.
+- SNS로 학습 시간을 인증하고 공유할 수 있다.
 
 <br>
 
