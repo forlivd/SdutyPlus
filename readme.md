@@ -84,7 +84,7 @@ https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 <br>
 
-## 규칙
+## Git 사용 규칙
 
 🌐 Git Flow
 ```
