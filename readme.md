@@ -7,7 +7,7 @@
 # 학습 시간 인증 관리 앱    "Sduty+"
 <br>
 
-### 🧷 다운로드 링크
+### 🧷 GooglePlay 다운로드 링크
 https://play.google.com/store/apps/details?id=com.d205.sdutyplus
 
 
