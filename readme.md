@@ -8,18 +8,18 @@
 
 **공부 인증 스터디앱**
 <br>
-<a href="[https://play.google.com/store/apps/details?id=com.d205.sdutyplus](https://play.google.com/store/apps/details?id=com.d205.sdutyplus)">
-  <img alt="Get it on Google Play" title="Google Play" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="180">
-</a>
+  <a href="https://play.google.com/store/apps/details?id=com.d205.sdutyplus">
+    <img alt="Get it on Google Play" title="Google Play" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="180">
+  </a>
 </div>
 
 <br/>
 
 # 목차
 
-[1. 개요](notion://www.notion.so/230411-app-bundle-ba08091f9e534abd81812243221d5df3#%EA%B0%9C%EC%9A%94)
+[1. 개요](#개요)
 
-[2. 담당역할 및 구현](notion://www.notion.so/230411-app-bundle-ba08091f9e534abd81812243221d5df3#%EB%8B%B4%EB%8B%B9%EC%97%AD%ED%95%A0-%EB%B0%8F-%EA%B5%AC%ED%98%84)
+[2. 담당역할 및 구현](#담당역할-및-구현)
 
 <br>
 
