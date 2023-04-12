@@ -19,7 +19,11 @@
 
 [1. 개요](#개요)
 
-[2. 담당역할 및 구현](#담당역할-및-구현)
+[2. 프로젝트 진행](#프로젝트-진행)
+
+[3. 사용 기술 및 담당 역할](#사용-기술-및-담당-역할)
+
+
 
 <br>
 
@@ -155,17 +159,35 @@ feat: 회원관리 | 네이버 로그인 기능 추가
 
 <br/>
 
-## 담당역할 및 구현
+## Project 진행
+```
+
+기능 명세서, API 명세서, Figma, Notion, GanttChart 등을 이용하여 문서화하여 소통하고자 하였습니다.
+ㄴ 문서화하여 소통하니 보다 확실히 진행이 가능했습니다. 가령 Backend가 우선 진행하고 Android가 진행하는 것이 이상적이나, Infra 세팅 및 DB 등으로 인해 그러지 못하는 경우 API 명세서를 미리 작성하면 이후 크게 수정하지 않고도 진행할 수 있었습니다.
+
+Git과 Jira Convention을 정하고 Git Flow에 따라 진행하고자 하였습니다.
+
+Google Playstore 출시 및 사용자 피드백을 받아 유지보수를 하고자 하였습니다.
+ㄴ Playstore에 출시할 시 고려해야 할 문서, 권한 등에 대해 이해하게 되었습니다. 또 Git Flow를 이용한 버전관리와 Playstore 버전업데이트 방법에 대해서도 알게 되었습니다.
+
+활발한 의견 교류가 프로젝트의 완성도를 높인다는 것을 느꼈습니다.
+ㄴ 같은 부분을 학습하거나 함께 구현할 기능을 정하여도 모두 다르게 이해하는 부분이 생겼지만, 활발한 의견 교류와 토의를 통해 미리 파악하고 의견을 좁힐 수 있었습니다. 이로인해 프로젝트 진행 시 서로의 이해와 구현을 확인하고 정리하기위해 끊임없이 소통하려는 노력이 중요함을 느꼈습니다.
+ㄴ 오류를 해결할 때도 Front나 Back에서 문제가 생기면 각 자의 부분만 확인하기보다는 의견 교류를 하는 것이 효과적인 경우가 많았습니다.
+ㄴ 코드 리뷰를 하여 피드백을 주고 받아 구현 방법을 보완할 수 있어서 많은 도움이 되었습니다.
+```
+
+<br/>
+
+## 사용 기술 및 담당 역할
 
 ### 사용 기술
-```
-AndroidStudio Kotlin MVVM Retrofit OKHttp Paging Coroutine
-Bottom-Navigation RecyclerView DataBinding ViewModel LiveData
+<table>
+<tr><th rowspan="1">Bagic</th><td>AndroidStudio, Kotlin, MVVM, Retrofit, OKHttp, Paging, Coroutine</td></tr>
+<tr><th rowspan="1">Bagic</th><td>Bottom-Navigation RecyclerView DataBinding ViewModel LiveData</td></tr>
+<tr><th rowspan="1">New</th><td>CleanArchitecture Coroutine-Flow BaseActivity ResultState Hilt </td></tr>
+<tr><th rowspan="1">Collabo</th><td>Git Git-Flow Jira Notion Mattermost Swagger Figma GanttChart</td></tr>
+</table>
 
-CleanArchitecture Coroutine-Flow BaseActivity ResultState Hilt 
-
-Git Git-Flow Jira Notion Mattermost Swagger Figma GanttChart
-```
 
 ### MVVM과 Clean Architecture를 이용한 Application 구조 설계
 
@@ -215,31 +237,4 @@ Paging을 이용하여 유저들이 등록한 게시물을 조회할 수 있도�
 
 Paing의 구현 방식에 따라 조회 시간에 차이가 남을 확인하였습니다.
 Server 담당자와 기능 구현을 논의하여 기존 방식보다 Paging 조회를 빠르게 구현하는 방법에 대해 이해를 높이고자 하였습니다.
-```
-
-### Project 진행
-```
-진행 :
-
-기능 명세서, API 명세서, Figma, Notion, GanttChart 등을 이용하여 문서화하여 소통하고자 하였습니다.
-
-Git과 Jira Convention을 정하고 Git Flow에 따라 진행하고자 하였습니다.
-
-Google Playstore 출시 및 사용자 피드백을 받아 유지보수를 하고자 하였습니다.
-
-코드 리뷰를 통해 코드를 개선하고자 노력하였습니다.
-
-
-느낀점 : 
-
-문서화하여 소통하니 보다 확실히 진행이 가능했습니다.
-ㄴ 가령 Backend가 우선 진행하고 Android가 진행하는 것이 이상적이나, Infra 세팅 및 DB 등으로 인해 그러지 못하는 경우 API 명세서를 미리 작성하면 이후 크게 수정하지 않고도 진행할 수 있었습니다.
-
-활발한 의견 교류가 프로젝트의 완성도를 높인다는 것을 느꼈습니다.
-ㄴ 같은 부분을 학습하거나 함께 구현할 기능을 정하여도 모두 다르게 이해하는 부분이 생겼지만, 활발한 의견 교류와 토의를 통해 미리 파악하고 의견을 좁힐 수 있었습니다. 이로인해 프로젝트 진행 시 서로의 이해와 구현을 확인하고 정리하기위해 끊임없이 소통하려는 노력이 중요함을 느꼈습니다.
-ㄴ 오류를 해결할 때도 Front나 Back에서 문제가 생기면 각 자의 부분만 확인하기보다는 의견 교류를 하는 것이 효과적인 경우가 많았습니다.
-
-Playstore에 출시할 시 고려해야 할 문서, 권한 등에 대해 이해하게 되었습니다. 또 Git Flow를 이용한 버전관리와 Playstore 버전업데이트 방법에 대해서도 알게 되었습니다.
-
-코드 리뷰를  코드를 더 신경쓰게되없습니다.
 ```
