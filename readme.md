@@ -19,7 +19,7 @@
 
 [1. 개요](#개요)
 
-[2. 프로젝트 진행](#프로젝트-진행)
+[2. Project 진행](#Project-진행)
 
 [3. 사용 기술 및 담당 역할](#사용-기술-및-담당-역할)
 
@@ -182,12 +182,13 @@ Google Playstore 출시 및 사용자 피드백을 받아 유지보수를 하고
 
 ### 사용 기술
 <table>
-<tr><th rowspan="1">Bagic</th><td>AndroidStudio, Kotlin, MVVM, Retrofit, OKHttp, Paging, Coroutine</td></tr>
-<tr><th rowspan="1">Bagic</th><td>Bottom-Navigation RecyclerView DataBinding ViewModel LiveData</td></tr>
-<tr><th rowspan="1">New</th><td>CleanArchitecture Coroutine-Flow BaseActivity ResultState Hilt </td></tr>
-<tr><th rowspan="1">Collabo</th><td>Git Git-Flow Jira Notion Mattermost Swagger Figma GanttChart</td></tr>
+<tr><th rowspan="1">Used</th><td>AndroidStudio / Kotlin / MVVM / Retrofit / OKHttp / Paging / Coroutine</td></tr>
+<tr><th rowspan="1">Used</th><td>Bottom Navigation / RecyclerView / DataBinding / ViewModel / LiveData</td></tr>
+<tr><th rowspan="1">New</th><td>Clean Architecture / Coroutine Flow / BaseActivity / ResultState / Hilt / Lottie</td></tr>
+<tr><th rowspan="1">Collabo</th><td>Git / Git-Flow / Jira / Notion / Mattermost / Swagger / Figma / GanttChart</td></tr>
 </table>
 
+<br/>
 
 ### MVVM과 Clean Architecture를 이용한 Application 구조 설계
 
