@@ -157,6 +157,16 @@ feat: 회원관리 | 네이버 로그인 기능 추가
 
 ## 담당역할 및 구현
 
+### 사용 기술
+```
+AndroidStudio Kotlin MVVM Retrofit OKHttp Paging Coroutine
+Bottom-Navigation RecyclerView DataBinding ViewModel LiveData
+
+CleanArchitecture Coroutine-Flow BaseActivity ResultState Hilt 
+
+Git Git-Flow Jira Notion Mattermost Swagger Figma GanttChart
+```
+
 ### MVVM과 Clean Architecture를 이용한 Application 구조 설계
 
 ```
@@ -181,10 +191,13 @@ DB 변경, Local과 Remote 변경 등 데이터 저장 방식의 변경이 간�
 ```
 구현 :
 
-학습 시간 측정 시 기기 시간이 다를 것을 고려해여 Server로부터 시간을 받아 저장하고, Timer로 학습 시간을 측정하도록 하였습니다.
+학습 시간 측정 시 기기 시간이 다를 것을 고려하여 Server로부터 시간을 받아 저장하고, Timer로 학습 시간을 측정하도록 하였습니다.
+1초마다 현재 시간을 갱신하여 화면에 표시하도록 하였습니다.
 측정이 종료되면 학습 내용을 입력받아 경과시간을 계산하여 Rest Server에 저장하도록 하였습니다.
 
 느낀점 :
+
+Data <-> String 변환과 같이 전체적으로 사용되는 함수는 Utils 등에 따로 두고 함께 사용하는 것을 설계 단계 부터 고민하는 것이 좋을 것 같습니다.
 
 Timer와 같은 Background 기능 구현 시 안드로이드 버전에 따른 Background 제한 정책이 있음을 확인하였습니다. 
 해당 내용과 해결을 위한 WorkManager, ForegroundService 등을 학습하여 Bacground Limit, Doze Mode 등에서도 Background 기능이 정상 동작하도록 이해를 높이고자 하였습니다.
@@ -202,4 +215,31 @@ Paging을 이용하여 유저들이 등록한 게시물을 조회할 수 있도�
 
 Paing의 구현 방식에 따라 조회 시간에 차이가 남을 확인하였습니다.
 Server 담당자와 기능 구현을 논의하여 기존 방식보다 Paging 조회를 빠르게 구현하는 방법에 대해 이해를 높이고자 하였습니다.
+```
+
+### Project 진행
+```
+진행 :
+
+기능 명세서, API 명세서, Figma, Notion, GanttChart 등을 이용하여 문서화하여 소통하고자 하였습니다.
+
+Git과 Jira Convention을 정하고 Git Flow에 따라 진행하고자 하였습니다.
+
+Google Playstore 출시 및 사용자 피드백을 받아 유지보수를 하고자 하였습니다.
+
+코드 리뷰를 통해 코드를 개선하고자 노력하였습니다.
+
+
+느낀점 : 
+
+문서화하여 소통하니 보다 확실히 진행이 가능했습니다.
+ㄴ 가령 Backend가 우선 진행하고 Android가 진행하는 것이 이상적이나, Infra 세팅 및 DB 등으로 인해 그러지 못하는 경우 API 명세서를 미리 작성하면 이후 크게 수정하지 않고도 진행할 수 있었습니다.
+
+활발한 의견 교류가 프로젝트의 완성도를 높인다는 것을 느꼈습니다.
+ㄴ 같은 부분을 학습하거나 함께 구현할 기능을 정하여도 모두 다르게 이해하는 부분이 생겼지만, 활발한 의견 교류와 토의를 통해 미리 파악하고 의견을 좁힐 수 있었습니다. 이로인해 프로젝트 진행 시 서로의 이해와 구현을 확인하고 정리하기위해 끊임없이 소통하려는 노력이 중요함을 느꼈습니다.
+ㄴ 오류를 해결할 때도 Front나 Back에서 문제가 생기면 각 자의 부분만 확인하기보다는 의견 교류를 하는 것이 효과적인 경우가 많았습니다.
+
+Playstore에 출시할 시 고려해야 할 문서, 권한 등에 대해 이해하게 되었습니다. 또 Git Flow를 이용한 버전관리와 Playstore 버전업데이트 방법에 대해서도 알게 되었습니다.
+
+코드 리뷰를  코드를 더 신경쓰게되없습니다.
 ```
