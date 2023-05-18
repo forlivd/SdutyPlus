@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.ssafy.foregroundservice.app-mergeDebugResources-4:/layout/activity_notification.xml",
+        "source": "com.ssafy.foregroundservice.app-main-7:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.ssafy.foregroundservice.app-mergeDebugResources-4:/layout/activity_timer.xml",
+        "source": "com.ssafy.foregroundservice.app-main-7:/layout/activity_timer.xml"
+    },
+    {
+        "merged": "com.ssafy.foregroundservice.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.ssafy.foregroundservice.app-main-7:/layout/activity_main.xml"
+    }
+]

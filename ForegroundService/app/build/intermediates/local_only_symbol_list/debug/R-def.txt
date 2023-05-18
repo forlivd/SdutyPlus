@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_play
+drawable ic_stop
+id btn_move_to_notify
+id btn_move_to_timer
+id btn_send_notify
+id reset_image_view
+id stopwatch_layout
+id stopwatch_text_view
+id stopwatch_value_text_view
+id toggle_button
+id tv_activit_time
+id tv_service_livetime
+layout activity_main
+layout activity_notification
+layout activity_timer
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ForegroundService
+xml backup_rules
+xml data_extraction_rules
